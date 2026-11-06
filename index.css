@@ -1,0 +1,139 @@
+*{
+    box-sizing:  border-box;
+}
+body{
+    margin: 0;
+}
+.header{
+    background-color: rgb(232, 146, 79);
+    padding: 20px;
+    text-align: center;
+}
+/* style pada topnav */
+.topnav{
+    overflow: hidden;
+    background-color: pink;
+}
+.topnav a{
+    float: left;
+    display: block;
+    color: crimson;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover{
+    background-color: beige;
+    color: brown;
+}
+.footer{
+    background-color: rgb(252, 241, 183);
+    padding: 10px;
+    text-align: center;
+}
+/* Style pada table */
+table, th, td{
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+    width: 70%;
+}
+th, td {
+    padding: 8px;
+    
+}
+.tb1{
+    background-color: aliceblue;
+    border: 3px solid rgb(69, 115, 1);
+}
+.tb1 th, .tb1 td{
+    border: 3px solid rgb(69, 115, 1);
+}
+.tb1 th:hover, .tb1 td:hover {
+  background-color: #c9fa89; 
+  cursor: pointer;
+}
+.tb2 th:hover, .tb2 td:hover {
+  background-color: #e6be68; 
+  cursor: pointer;
+}
+.tb2 {
+    margin-bottom: 20px;
+    border-collapse: collapse; 
+    border: 3px solid rgb(33, 53, 3);
+}
+
+.tb2 tr:nth-child(even){
+    background-color: rgb(218, 250, 170);
+    color: #233708;
+}
+
+.tb2 tr:nth-child(odd){
+    background-color: #345705;
+    color: aliceblue;
+}
+
+
+ol{
+    background-color: rgb(151, 60, 60);
+    border: 3px solid rgb(87, 6, 6);
+    padding: 15px 30px;
+    margin: 10px;
+    list-style-position: inside;
+}
+ol li{
+    background-color: rgb(143, 142, 142);
+    margin: 6px 0;
+    padding: 6px 12px;
+    border: 2px solid rgb(67, 67, 67);
+    text-align: justify;
+}
+ol li:hover{
+    background-color: rgb(77, 4, 4);
+    color: rgb(255, 175, 175);
+}
+.lalal{
+    color: rgb(247, 185, 185);
+    background-color: rgb(96, 14, 14);
+}
+.lalal:hover{
+    background-color: rgb(247, 185, 185);
+    color: rgb(96, 14, 14);
+}
+.caca{
+    background-color: rgb(151, 60, 60);
+    border: 3px solid rgb(87, 6, 6);
+    padding: 15px 30px;
+    margin: 10px;
+    list-style-position: inside;
+}
+.caca li{
+    background-color: rgb(143, 142, 142);
+    margin: 6px 0;
+    padding: 6px 12px;
+    border: 2px solid rgb(67, 67, 67);
+    text-align: justify;
+}
+.caca li:hover{
+    background-color: rgb(77, 4, 4);
+    color: rgb(255, 175, 175);
+}
+.cucu{
+    background-color: rgb(151, 60, 60);
+    border: 3px solid rgb(87, 6, 6);
+    padding: 15px 30px;
+    margin: 10px;
+    list-style-position: inside;
+}
+.cucu li{
+    background-color: rgb(143, 142, 142);
+    margin: 6px 0;
+    padding: 6px 12px;
+    border: 2px solid rgb(67, 67, 67);
+    text-align: justify;
+}
+.cucu li:hover{
+    background-color: rgb(77, 4, 4);
+    color: rgb(255, 175, 175);
+}
